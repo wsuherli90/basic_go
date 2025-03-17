@@ -7,5 +7,5 @@ import (
 
 func main() {
 
-	calculate.Result() 
+	calculate.Show()
 }
