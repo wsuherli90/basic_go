@@ -6,9 +6,9 @@ import (
 	"strconv"
 )
 
-func Result() { // Ubah result menjadi Result (huruf besar)
+func Result() {
 	age := askUser()
-	yearsBorn := strconv.Itoa(CalculateFutureValue(age)) // Ubah calculateFutureValue
+	yearsBorn := strconv.Itoa(CalculateFutureValue(age)) 
 	outputText(yearsBorn)
 }
 
@@ -24,7 +24,7 @@ func askUser() int {
 	return age
 }
 
-func CalculateFutureValue(age int) int { // Ubah calculateFutureValue
+func CalculateFutureValue(age int) int {
 	return 2025 - age
 }
 
